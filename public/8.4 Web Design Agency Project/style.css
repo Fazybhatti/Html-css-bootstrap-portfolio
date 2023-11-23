@@ -8,50 +8,60 @@ body {
 }
 .main {
   flex: 1;
- 
 }
 
 h1 {
   font-size: 5rem;
-
 }
 
 footer {
   text-align: right;
   color: midnightblue;
-  line-height: 20px;
- 
 }
 
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
 
-
-.card{
-  display: inline-block;
+.card {
   width: 45%;
-  height:185px;
-  margin-top: 60px;
-
- 
-  
-  
- 
 }
 
-.left{
-  float:left ;
+.left {
+  float: left;
 }
-.right{
+
+.right {
   float: right;
-  
 }
 
-.tile-image{
- float: left;
- height: 200px;
- width: 300px;
-margin-right: 32px;
+.creative {
+  color: midnightblue;
 }
 
-.line{
-  line-height: 0.5px;
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 }
