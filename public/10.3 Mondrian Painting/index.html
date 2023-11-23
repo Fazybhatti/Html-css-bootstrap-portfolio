@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+     
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 0.1fr 0.2fr;
+        grid-template-rows: 250px 200px;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        grid-auto-rows: 50px;
+      }
+      .red {
+        background-color: #e72f24;
+      }
+      .white {
+        background-color: #f0f1ec;
+      }
+
+      .item1 {
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+      }
+      .item2 {
+        border-bottom: 5px solid black;
+      }
+      .item3 {
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+      }
+      .item4 {
+        border-bottom: 5px solid black;
+        border-right: 5px solid black;
+        width: 89%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: -2;
+        grid-row-end: -1;
+      }
+      .item5 {
+        width: 10%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: -2;
+        grid-row-end: -1;
+        background-color: blue;
+        margin-left: 90%;
+        height: 34%;
+        border-bottom: 10px solid black;
+      }
+      .item6 {
+        width: 10%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: -2;
+        grid-row-end: -1;
+        background-color: #f0f1ec;
+        margin-left: 91%;
+        height: 87%;
+        margin-top: 78px;
+      }
+      .item7 {
+        background-color: #f0f1ec;
+        width: 97%;
+        border-right: 5px solid black;
+      }
+      .item8 {
+        background-color: yellow;
+        width: 50%;
+        border-right: 3px solid black;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: -1;
+        grid-row-end: -1;
+      }
+      .item9 {
+        background-color: #232629;
+        width: 39%;
+        height: 50px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: -1;
+        grid-row-end: -1;
+        margin-left: 50%;
+        border-right: 5px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container container1">
+      <div class="red item1"></div>
+      <div class="white item2"></div>
+      <div class="white item3"></div>
+      <div class="white item4"></div>
+      <div class="blue item5"></div>
+      <div class="item6"></div>
+      <div class="item7"></div>
+      <div class="item8"></div>
+      <div class="item9"></div>
+      
+    </div>
+    <!-- Write your HTML here -->
+  </body>
+</html>

@@ -1,0 +1,50 @@
+/* body{
+    background-color: rgb(161, 59, 245);
+} */
+.new-container{
+    background-color: white;
+    outline: 2px dashed greenyellow;
+}
+.nav{
+    font-family: 'GFS Didot', serif;
+    font-size: x-large;
+}
+.description{
+  font-family: 'GFS Didot', serif;
+}
+.footer{
+    cursor: pointer;
+}
+.border1{
+    border-bottom: 2px solid black ;
+}
+.text{
+    text-align:justify;
+}
+.new-container1{
+    display: flex;
+    
+   
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.gradient-background {
+    background: linear-gradient(300deg,darkviolet,#8c52ff,#ffed52);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
